@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myflutter/CardGrid.dart';
 import 'package:myflutter/Column.dart';
 import 'package:myflutter/CallLog.dart';
 import 'package:myflutter/DataTable.dart';
@@ -27,8 +28,8 @@ void main() {
       // home: DynamicCallLog(),
       // home: ScrollWid()
       // home: GridViewWid(),
-      home: TableWid(),
-
+      // home: TableWid(),
+        home: CardGrid(),
       
     ),
   );

@@ -10,6 +10,7 @@ class MyAppBar extends StatelessWidget {
           backgroundColor: Colors.teal,
           title: Text("MyFlutterApp", style: TextStyle(color: Colors.white)),
           centerTitle: true,
+          foregroundColor: Colors.white,
           //appbar k left side p icon lgany k liye leading use hota h
           // leading: IconButton(
           //   onPressed: () {
@@ -31,6 +32,7 @@ class MyAppBar extends StatelessWidget {
           ],
         ),
         drawer: Drawer(
+          
           child: ListView(
             children: [UserAccountsDrawerHeader(
               accountName: Text("Urooj Rehman",style: TextStyle(color: Colors.teal),),
